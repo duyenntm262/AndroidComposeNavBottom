@@ -21,7 +21,7 @@ import com.example.androidcomposenavbotsheet.ui.theme.GreenJC
 fun Home(){
     val puppies = remember { DataProvider.puppyList }
     LazyColumn (
-        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 75.dp)
+        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 15.dp)
     ){
         items(
             items = puppies,

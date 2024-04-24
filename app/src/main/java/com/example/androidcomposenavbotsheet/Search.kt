@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
+import com.example.androidcomposenavbotsheet.ui.theme.Black
 import com.example.androidcomposenavbotsheet.ui.theme.GreenJC
 
 @Composable
@@ -19,7 +20,7 @@ fun Search(){
             .align(Alignment.Center),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally){
-            Text(text = "Search", fontSize = 30.sp, color = GreenJC)
+            Text(text = "Search", fontSize = 30.sp, color = Black)
         }
     }
 }
